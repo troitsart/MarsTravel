@@ -1,0 +1,704 @@
+@font-face {
+    font-family: 'Novoposelensky';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    src: url("../fonts/Novoposelensky.otf")
+}
+
+@font-face {
+    font-family: 'Usually-font';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 148px;
+    src: url("../fonts/Usually-font-Bold.otf");
+}
+
+@font-face {
+    font-family: 'DXRigraf-SemiBold-Thin';
+    font-style: normal;
+    font-weight: 250;
+    line-height: 22px;
+    src: url("../fonts/DXRigraf-Thin.otf");
+}
+
+@font-face {
+    font-family: 'DXRigraf-SemiBold-MediumExtraExpanded';
+    src: url("../fonts/DXRigraf-MediumExtraExpanded.otf");
+}
+
+@font-face {
+    font-family: 'DXRigraf-SemiBold-LightExpanded';
+    src: url("../fonts/DXRigraf-LightExpanded.otf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    background-image:  url(../img/svg/background_left.svg),
+                       url(../img/svg/background_right.svg),  
+                       url(../img/svg/background.svg);
+    background-color: black;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-position: left top, right top, center top;
+
+
+
+
+
+}
+
+header {
+    padding-top: 60px;
+}
+
+nav {
+
+    font-size: 19px;
+    line-height: 17px;
+    font-family: 'Novoposelensky';
+    color: #D8C7C7;
+    font-weight: 400;
+
+    margin: 0 auto;
+    width: 936px;
+    height: 17px;
+}
+
+    .nav_elements {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+        }
+
+        .nav_item{
+            height: 17px;
+            transition: 0.19s;
+        }
+
+        .nav_item:hover {
+            font-size: 23px;
+            text-shadow: 1px 1px 4px #B4B4B4;
+        }
+
+
+        .nav_link{
+            color: #D8C7C7;
+            text-decoration: none;
+        }
+
+main {
+    margin-top: 100px;
+}
+    .start {
+        width: 944px;
+        height: 517px;
+        margin: 0 auto;
+    }
+        .start_planet {
+
+            position: relative;
+            width: 944px;
+            height: 410px;
+        }
+
+            .start_planet_star_first {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                margin-left: -3px;
+                margin-top: -3px;
+                z-index: 2;
+                animation: start_planet_animate_star_first 5s linear infinite;
+            }
+
+
+            .start_planet_star_second {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                margin-left: -3px;
+                margin-top: -3px;
+                z-index: 2;
+                animation: start_planet_animate_star_second 5s linear infinite;
+            }
+
+                @keyframes start_planet_animate_star_first {
+                    from {
+                        transform: rotate(0deg) translateY(205px);
+                    }
+                    to {
+                        transform: rotate(360deg) translateY(205px);
+                    }
+                }
+
+                @keyframes start_planet_animate_star_second {
+                    from {
+                        transform: rotate(0deg) translateY(-205px);
+                    }
+                    to {
+                        transform: rotate(360deg) translateY(-205px);
+                    }
+                }
+
+            .start_planet_img {
+                position: absolute;
+                left: 50%;
+                margin-left: -205px;
+                z-index: 1;
+            }
+
+            .start_planet_text_ma {
+                top: 103px;
+                position: absolute;
+            }
+
+            .start_planet_text_rs {
+                right: 0;
+                top: 103px;
+                position: absolute;
+            }
+
+        .dreams {
+            display: inline-block;
+            width: 238px;
+            height: 42px;
+        }
+
+        .start_buy_ticket_button {
+            text-align: right;
+
+        }
+
+    .about {
+        width: 944px;
+        height: 531px;
+        margin: 100px auto 0;
+    }
+        .title_text {
+            height: 32px;
+        }
+        .about_interactive {
+            width: 944px;
+            height: 410px;
+            margin-top: 89px;
+            position: relative;
+
+            font-family: 'DXRigraf-SemiBold-Thin';
+            font-style: normal;
+            font-weight: 250 ;
+            font-size: 20px;
+            line-height: 22px;
+            text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.8);
+            color: #D8C7C7;
+        }
+            .about_interactive_planet {
+                width: 410px;
+                height: 410px;
+                position: relative;
+            }   
+
+                .dot_one {
+                    left: 13.9%;
+                    right: 83.66%;
+                    top: 48.78%;
+                    bottom: 48.78%;
+                    position: absolute;
+
+                }
+
+                .dot_one:hover{
+                    background-color: purple;
+                    opacity: 0;
+                }
+
+                .dot_one:hover ~ .about_interactive_choice_default  {
+                    opacity: 0;
+                }
+
+                .dot_two {
+                    left: 32.93%;
+                    right: 64.63%;
+                    top: 17.07%;
+                    bottom: 80.49%;
+                    position: absolute;
+                }
+
+                .dot_three {
+                    left: 70.73%;
+                    right: 26.83%;
+                    top: 52.93%;
+                    bottom: 44.63%;
+                    position: absolute;   
+                }
+
+                .dot_four {
+                    left: 64.39%;
+                    right: 33.17%;
+                    top: 23.41%;
+                    bottom: 74.15%;
+                    position: absolute;
+                }
+
+                .dot_five {
+                    left: 47.56%;
+                    right: 50%;
+                    top: 46.34%;
+                    bottom: 51.22%;
+                    position: absolute;
+                }
+
+                .dot_six {
+                    left: 35.37%;
+                    right: 62.2%;
+                    top: 75.61%;
+                    bottom: 21.95%;
+                    position: absolute;
+                }
+
+                .about_interactive_planet_img {
+                    position: absolute;
+                }
+
+            .about_interactive_choice_default {
+
+                position: absolute;
+                left: 65.68%;
+                right: 14.62%;
+                top: 33.9%;
+                bottom: 33.9%;
+                text-align: center;
+                opacity: 1;
+            }
+
+            .about_interactive_choice_1 {
+
+                position: absolute;
+                left: 62.61%;
+                right: 11.65%;
+                top: 25.12%;
+                bottom: 25.12%;
+                text-align: center;
+                display: none;
+            }
+
+            .about_interactive_choice_2 {
+
+                position: absolute;
+                left: 61.97%;
+                right: 10.91%;
+                top: 25.12%;
+                bottom: 25.12%;
+                text-align: center;
+                display: none;
+            }
+
+            .about_interactive_choice_3 {
+
+                position: absolute;
+                left: 64.09%;
+                right: 13.14%;
+                top: 22.93%;
+                bottom: 23.17%;
+                text-align: center;
+                display: none;
+            }
+
+            .about_interactive_choice_4 {
+
+                position: absolute;
+                left: 64.94%;
+                right: 13.88%;
+                top: 29.27%;
+                bottom: 29.27%;
+                text-align: center;
+                display: none;
+            }
+
+            .about_interactive_choice_5 {
+
+                position: absolute;
+                left: 66.21%;
+                right: 15.25%;
+                top: 33.41%;
+                bottom: 33.41%;
+                text-align: center;
+                display: none;
+            }
+
+            .about_interactive_choice_6 {
+
+                position: absolute;
+                left: 63.35%;
+                right: 12.39%;
+                top: 27.07%;
+                bottom: 27.32%;
+                text-align: center;
+                display: none;
+            }
+
+
+    .banner {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: 280px;
+        background-image: url("../img/svg/banner.svg");
+        background-repeat: repeat-x;
+    }
+
+    .gallery {
+        width: 944px;
+        height: 657px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+        .gallery_photos {
+            width: 944px;
+            height: 543px;
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .gallery_photos_items {
+                height: 543px;
+                position: relative;
+                display: flex;
+                align-items: center;
+            }
+
+            .gallery_photos_item_1 {
+                transition: 0.2s;
+            }
+
+            .gallery_photos_item_1:hover {
+                scale: 1.1;
+            }
+
+            .gallery_photos_item_2 {
+                transition: 0.2s;
+            }
+
+            .gallery_photos_item_2:hover {
+                scale: 1.1;
+            }
+
+            .gallery_photos_item_3 {
+                transition: 0.2s;
+            }
+
+            .gallery_photos_item_3:hover {
+                scale: 1.1;
+            }
+
+        .gallery_numbers_wrapper {
+            position: absolute;
+            top: 140px;
+            left: 10.7%;
+        }
+        .gallery_numbers {
+            display: flex;
+            justify-content: space-between;
+            width: 754px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .buy_ticket {
+        width: 944px;
+        height: 571px;
+        margin: 0 auto;
+    }
+
+        .buy_ticket_windows {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 89px;
+        }
+
+            .buy_ticket_window_title {
+
+        
+                font-family: 'DXRigraf-SemiBold-LightExpanded';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 22px;
+                line-height: 24px;
+                color: #D8C7C7;
+
+                text-align: center;
+                padding-top: 41px;
+            }
+
+            .buy_ticket_window_button {
+                text-align: center;
+                padding-top: 50px;
+            }
+
+            .buy_ticket_window_standart {
+
+                background-image: url(../img/svg/background_ticket_standart.svg);
+                width: 280px;
+                height: 450px;
+
+                transition: 0.4s;
+            }
+            .buy_ticket_window_standart:hover {
+                scale: 1.04;
+            }
+
+                .buy_ticket_window_sum_standart {
+
+                    font-family: 'DXRigraf-SemiBold-MediumExtraExpanded';
+                    color: #DB937D;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 26px;
+
+                    text-align: center;
+                    padding-top: 20px;
+                }
+
+                .buy_ticket_window_list_standart {
+                    font-family: 'DXRigraf-SemiBold-Thin';
+                    text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.8);
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 17px;
+                    line-height: 29px;
+                    color: #D8C7C7;
+
+                    padding-top: 32px;
+                    padding-left: 40px;
+
+                    list-style-image: url(../img/svg/buy_ticket_arrow_standart.svg);
+                }
+
+                li.buy_ticket_window_list_element_standart:nth-child(n+4) {
+                    list-style-image: url(../img/svg/buy_ticket_cross_standart.svg);
+                }
+
+            .buy_ticket_window_vip {
+
+                background-image: url(../img/svg/background_ticket_vip.svg);
+                width: 280px;
+                height: 450px;
+                transition: 0.4s;
+            }
+
+            .buy_ticket_window_vip:hover {
+                scale: 1.04;
+            }
+
+
+                .buy_ticket_window_sum_vip {
+
+                    font-family: 'DXRigraf-SemiBold-MediumExtraExpanded';
+                    color: #E25A41;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 26px;
+
+                    text-align: center;
+                    padding-top: 20px;
+                }
+
+                .buy_ticket_window_list_vip {
+                    font-family: 'DXRigraf-SemiBold-Thin';
+                    text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.8);
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 17px;
+                    line-height: 29px;
+                    color: #D8C7C7;
+
+                    padding-top: 32px;
+                    padding-left: 40px;
+
+                    list-style-image: url(../img/svg/buy_ticket_arrow_vip.svg);
+                }
+
+                li.buy_ticket_window_list_element_vip:nth-child(n+5) {
+                    list-style-image: url(../img/svg/buy_ticket_cross_vip.svg);
+                }
+
+            .buy_ticket_window_exclusive {
+
+                background-image: url(../img/svg/background_ticket_exclusive.svg);
+                width: 280px;
+                height: 450px;
+
+                transition: 0.4s;
+            }
+
+            .buy_ticket_window_exclusive:hover {
+                scale: 1.04;
+            }
+
+            .buy_ticket_window_exclusive:hover .exclusive_title {
+                animation: test 3s linear infinite;
+            }
+
+            @keyframes test {
+                50%{color: #911515}
+            }
+
+
+                .buy_ticket_window_sum_exclusive {
+
+                    font-family: 'DXRigraf-SemiBold-MediumExtraExpanded';
+                    color: #911515;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 26px;
+
+                    text-align: center;
+                    padding-top: 20px;
+                }
+
+                .buy_ticket_window_list_exclusive {
+                    font-family: 'DXRigraf-SemiBold-Thin';
+                    text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.8);
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 17px;
+                    line-height: 29px;
+                    color: #D8C7C7;
+
+                    padding-top: 32px;
+                    padding-left: 40px;
+
+                    list-style-image: url(../img/svg/buy_ticket_arrow_exclusive.svg);
+
+                }
+
+footer {
+    font-family: 'DXRigraf-SemiBold-Thin';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 15px;
+    color: #D8C7C7;
+
+    padding-top: 180px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.start_planet_font {
+    font-family: 'Usually-font';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 170px;
+    line-height: 148px;
+
+
+    background: linear-gradient(180deg, #911515 0%, #1A0303 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+    text-shadow: 0px 4px 4px rgba(124, 0, 0, 0.25);
+}
+
+.dreams_font {
+    font-family: 'Novoposelensky';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 13px;
+    color: #D8C7C7;
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
+}
+
+.title_font {
+    font-family: 'Novoposelensky';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 31px;
+    color: #D8C7C7;
+}
+
+
+
+
+
+
+
+.buy_ticket_button {
+    font-family: 'Novoposelensky';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #D8C7C7;
+
+    display: inline-block;
+}
+    .buy_ticket_button_wrapper {
+        display: inline-block;
+        vertical-align: middle;
+
+        transition: 0.5s;
+    }
+
+    .buy_ticket_button_arrow {
+        transition: 0.5s;
+        transform-origin: 50.5px;
+    }
+
+    .buy_ticket_button:hover .buy_ticket_button_arrow {
+        transform: rotate(180deg);
+    }
+
+    .buy_ticket_button:hover .buy_ticket_button_wrapper {
+        transform: translateX(20px);
+
+
+            text-shadow: 1px 1px 4px #B4B4B4;
+    }
+
+#test {
+    transition: 1s;
+}
+
+
+
+
