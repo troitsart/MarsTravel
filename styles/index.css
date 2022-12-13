@@ -202,15 +202,6 @@ main {
                     position: absolute;
                 }
 
-                .dot-one:hover{
-                    background-color: purple;
-                    opacity: 0;
-                }
-
-                .dot-one:hover ~ .about-interactive-choice-default  {
-                    opacity: 0;
-                }
-
                 .dot-two {
                     left: 32.93%;
                     right: 64.63%;
@@ -272,7 +263,7 @@ main {
                 top: 25.12%;
                 bottom: 25.12%;
                 text-align: center;
-                display: none;
+                opacity: 0;
             }
 
             .about-interactive-choice-2 {
@@ -282,7 +273,7 @@ main {
                 top: 25.12%;
                 bottom: 25.12%;
                 text-align: center;
-                display: none;
+                opacity: 0;
             }
 
             .about-interactive-choice-3 {
@@ -292,7 +283,7 @@ main {
                 top: 22.93%;
                 bottom: 23.17%;
                 text-align: center;
-                display: none;
+                opacity: 0;
             }
 
             .about-interactive-choice-4 {
@@ -302,7 +293,7 @@ main {
                 top: 29.27%;
                 bottom: 29.27%;
                 text-align: center;
-                display: none;
+                opacity: 0;
             }
 
             .about-interactive-choice-5 {
@@ -312,7 +303,7 @@ main {
                 top: 33.41%;
                 bottom: 33.41%;
                 text-align: center;
-                display: none;
+                opacity: 0;
             }
 
             .about-interactive-choice-6 {
@@ -322,7 +313,33 @@ main {
                 top: 27.07%;
                 bottom: 27.32%;
                 text-align: center;
-                display: none;
+                opacity: 0;
+            }
+
+            .about-interactive-choice-animate-appearance {
+                animation: choice-appearance 1s linear forwards;
+            }
+
+            @keyframes choice-appearance {
+              0% {
+                opacity: 0;
+              }
+              100% {
+                opacity: 1;
+              }
+            }
+
+            .about-interactive-choice-animate-disappearance {
+                animation: choice-disappearance 0.5s linear forwards;
+            }
+
+            @keyframes choice-disappearance {
+              100% {
+                opacity: 0;
+              }
+              0% {
+                opacity: 1;
+              }
             }
 
     .banner {
@@ -517,10 +534,10 @@ main {
             }
 
             .buy-ticket-window-exclusive:hover .exclusive-title {
-                animation: test 3s linear infinite;
+                animation: exclusive-animation 3s linear infinite;
             }
 
-            @keyframes test {
+            @keyframes exclusive-animation {
                 50%{color: #911515}
             }
 

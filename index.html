@@ -46,20 +46,20 @@
 						<img class="start-planet-star-first" src="img/svg/star.svg" alt="звезда">
 						<img class="start-planet-star-second" src="img/svg/star.svg" alt="звезда">
 						<img class="about-interactive-planet-img" src="img/svg/start-planet.svg" alt="марс">
-						<img class="dot-one" src="img/svg/dot.svg" alt="точка">
-						<img class="dot-two" src="img/svg/dot.svg" alt="точка">
-						<img class="dot-three" src="img/svg/dot.svg" alt="точка">
-						<img class="dot-four" src="img/svg/dot.svg" alt="точка">
-						<img class="dot-five" src="img/svg/dot.svg" alt="точка">
-						<img class="dot-six" src="img/svg/dot.svg" alt="точка">
+						<button onclick="animateChoice('choice-one')"><img class="dot-one" src="img/svg/dot.svg" alt="точка"></button>
+						<button onclick="animateChoice('choice-two')"><img class="dot-two" src="img/svg/dot.svg" alt="точка"></button>
+						<button onclick="animateChoice('choice-three')"><img class="dot-three" src="img/svg/dot.svg" alt="точка"></button>
+						<button onclick="animateChoice('choice-four')"><img class="dot-four" src="img/svg/dot.svg" alt="точка"></button>
+						<button onclick="animateChoice('choice-five')"><img class="dot-five" src="img/svg/dot.svg" alt="точка"></button>
+						<button onclick="animateChoice('choice-six')"><img class="dot-six" src="img/svg/dot.svg" alt="точка"></button>
 					</div>
-					<div class="about-interactive-choice-default">Примечание: Нажмите на точку на планете, чтобы увидеть подробную информацию</div>
-					<div class="about-interactive-choice-1">Северный полярный бассейн, занимающий около 40% площади всей поверхности Марса, возможно, является самым крупным ударным кратером в Солнечной системе. Если эта теория верна, значит, некогда Марс столкнулся в небесным телом размером с Плутон.</div>
-					<div class="about-interactive-choice-2">На Марсе есть вода! Исследовательские аппараты обнаружили в полярных регионах планеты слои подповерхностного льда. Возможно, когда-то на Красной планете были и настоящие реки и озера – многие разломы на ее поверхности могут быть следами когда-то существовавших водоемов.</div>
-					<div class="about-interactive-choice-3">Марс испещрен множеством кратеров. Самый большой из них называется Великой Северной равниной и занимает около 40% поверхности планеты. Считается, что кратер образовался после столкновения Марса с космическим телом размером примерно с Плутон</div>
-					<div class="about-interactive-choice-4">Марсианские рассветы и закаты представляют собой полную противоположность земным. Из-за рассеянной в атмосфере планеты пыли они окрашены в голубые тона.</div>
-					<div class="about-interactive-choice-5">Ещё одна из колонизационных идей с перспективой на будущее — доставка на Марс льда с колец Сатурна.</div>
-					<div class="about-interactive-choice-6">Самая высокая гора в Солнечной системе, вулкан Олимп, находится именно тут. От подножия до вершины она возвышается на 26 км, и атмосферное давление на её вершине равно лишь 2% от давления на условном марсианском “уровне моря”.</div>
+					<div class="about-interactive-choice-default" id="choice-default">Примечание: Нажмите на точку на планете, чтобы увидеть подробную информацию</div>
+					<div class="about-interactive-choice-1" id="choice-one">Северный полярный бассейн, занимающий около 40% площади всей поверхности Марса, возможно, является самым крупным ударным кратером в Солнечной системе. Если эта теория верна, значит, некогда Марс столкнулся в небесным телом размером с Плутон.</div>
+					<div class="about-interactive-choice-2" id="choice-two">На Марсе есть вода! Исследовательские аппараты обнаружили в полярных регионах планеты слои подповерхностного льда. Возможно, когда-то на Красной планете были и настоящие реки и озера – многие разломы на ее поверхности могут быть следами когда-то существовавших водоемов.</div>
+					<div class="about-interactive-choice-3" id="choice-three">Марс испещрен множеством кратеров. Самый большой из них называется Великой Северной равниной и занимает около 40% поверхности планеты. Считается, что кратер образовался после столкновения Марса с космическим телом размером примерно с Плутон</div>
+					<div class="about-interactive-choice-4" id="choice-four">Марсианские рассветы и закаты представляют собой полную противоположность земным. Из-за рассеянной в атмосфере планеты пыли они окрашены в голубые тона.</div>
+					<div class="about-interactive-choice-5" id="choice-five">Ещё одна из колонизационных идей с перспективой на будущее — доставка на Марс льда с колец Сатурна.</div>
+					<div class="about-interactive-choice-6" id="choice-six">Самая высокая гора в Солнечной системе, вулкан Олимп, находится именно тут. От подножия до вершины она возвышается на 26 км, и атмосферное давление на её вершине равно лишь 2% от давления на условном марсианском “уровне моря”.</div>
 				</div>
 			</div>
 			<div class="banner"></div>
@@ -157,5 +157,6 @@
 		<footer>
 			<div class="allrights" id="id-allrights">© Artira Inc., 2022, All rights reserved. mars@gmail.com</div>
 		</footer>
+		<script src="js/index.js"></script>
 	</body>
 </html>
