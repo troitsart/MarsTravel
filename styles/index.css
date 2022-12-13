@@ -45,10 +45,6 @@ body {
     background-repeat: no-repeat, no-repeat, repeat-x;
     background-position: left top, right top, center top;
 
-
-
-
-
 }
 
 header {
@@ -62,7 +58,6 @@ nav {
     font-family: 'Novoposelensky';
     color: #D8C7C7;
     font-weight: 400;
-
     margin: 0 auto;
     width: 936px;
     height: 17px;
@@ -114,7 +109,6 @@ main {
                 z-index: 2;
                 animation: start_planet_animate_star_first 5s linear infinite;
             }
-
 
             .start_planet_star_second {
                 position: absolute;
@@ -186,7 +180,6 @@ main {
             height: 410px;
             margin-top: 89px;
             position: relative;
-
             font-family: 'DXRigraf-SemiBold-Thin';
             font-style: normal;
             font-weight: 250 ;
@@ -207,7 +200,6 @@ main {
                     top: 48.78%;
                     bottom: 48.78%;
                     position: absolute;
-
                 }
 
                 .dot_one:hover{
@@ -264,7 +256,6 @@ main {
                 }
 
             .about_interactive_choice_default {
-
                 position: absolute;
                 left: 65.68%;
                 right: 14.62%;
@@ -275,7 +266,6 @@ main {
             }
 
             .about_interactive_choice_1 {
-
                 position: absolute;
                 left: 62.61%;
                 right: 11.65%;
@@ -286,7 +276,6 @@ main {
             }
 
             .about_interactive_choice_2 {
-
                 position: absolute;
                 left: 61.97%;
                 right: 10.91%;
@@ -297,7 +286,6 @@ main {
             }
 
             .about_interactive_choice_3 {
-
                 position: absolute;
                 left: 64.09%;
                 right: 13.14%;
@@ -308,7 +296,6 @@ main {
             }
 
             .about_interactive_choice_4 {
-
                 position: absolute;
                 left: 64.94%;
                 right: 13.88%;
@@ -319,7 +306,6 @@ main {
             }
 
             .about_interactive_choice_5 {
-
                 position: absolute;
                 left: 66.21%;
                 right: 15.25%;
@@ -330,7 +316,6 @@ main {
             }
 
             .about_interactive_choice_6 {
-
                 position: absolute;
                 left: 63.35%;
                 right: 12.39%;
@@ -339,7 +324,6 @@ main {
                 text-align: center;
                 display: none;
             }
-
 
     .banner {
         margin-top: 100px;
@@ -407,21 +391,6 @@ main {
             width: 754px;
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .buy_ticket {
         width: 944px;
         height: 571px;
@@ -443,7 +412,6 @@ main {
                 font-size: 22px;
                 line-height: 24px;
                 color: #D8C7C7;
-
                 text-align: center;
                 padding-top: 41px;
             }
@@ -473,7 +441,6 @@ main {
                     font-weight: 500;
                     font-size: 24px;
                     line-height: 26px;
-
                     text-align: center;
                     padding-top: 20px;
                 }
@@ -486,10 +453,8 @@ main {
                     font-size: 17px;
                     line-height: 29px;
                     color: #D8C7C7;
-
                     padding-top: 32px;
                     padding-left: 40px;
-
                     list-style-image: url(../img/svg/buy_ticket_arrow_standart.svg);
                 }
 
@@ -518,7 +483,6 @@ main {
                     font-weight: 500;
                     font-size: 24px;
                     line-height: 26px;
-
                     text-align: center;
                     padding-top: 20px;
                 }
@@ -531,10 +495,8 @@ main {
                     font-size: 17px;
                     line-height: 29px;
                     color: #D8C7C7;
-
                     padding-top: 32px;
                     padding-left: 40px;
-
                     list-style-image: url(../img/svg/buy_ticket_arrow_vip.svg);
                 }
 
@@ -547,7 +509,6 @@ main {
                 background-image: url(../img/svg/background_ticket_exclusive.svg);
                 width: 280px;
                 height: 450px;
-
                 transition: 0.4s;
             }
 
@@ -572,7 +533,6 @@ main {
                     font-weight: 500;
                     font-size: 24px;
                     line-height: 26px;
-
                     text-align: center;
                     padding-top: 20px;
                 }
@@ -585,10 +545,8 @@ main {
                     font-size: 17px;
                     line-height: 29px;
                     color: #D8C7C7;
-
                     padding-top: 32px;
                     padding-left: 40px;
-
                     list-style-image: url(../img/svg/buy_ticket_arrow_exclusive.svg);
 
                 }
@@ -600,25 +558,9 @@ footer {
     font-size: 14px;
     line-height: 15px;
     color: #D8C7C7;
-
     padding-top: 180px;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .start_planet_font {
     font-family: 'Usually-font';
@@ -626,14 +568,11 @@ footer {
     font-weight: 700;
     font-size: 170px;
     line-height: 148px;
-
-
     background: linear-gradient(180deg, #911515 0%, #1A0303 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-
     text-shadow: 0px 4px 4px rgba(124, 0, 0, 0.25);
 }
 
@@ -656,12 +595,6 @@ footer {
     color: #D8C7C7;
 }
 
-
-
-
-
-
-
 .buy_ticket_button {
     font-family: 'Novoposelensky';
     font-style: normal;
@@ -669,13 +602,11 @@ footer {
     font-size: 20px;
     line-height: 18px;
     color: #D8C7C7;
-
     display: inline-block;
 }
     .buy_ticket_button_wrapper {
         display: inline-block;
         vertical-align: middle;
-
         transition: 0.5s;
     }
 
@@ -690,15 +621,5 @@ footer {
 
     .buy_ticket_button:hover .buy_ticket_button_wrapper {
         transform: translateX(20px);
-
-
-            text-shadow: 1px 1px 4px #B4B4B4;
+        text-shadow: 1px 1px 4px #B4B4B4;
     }
-
-#test {
-    transition: 1s;
-}
-
-
-
-
