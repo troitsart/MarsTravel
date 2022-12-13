@@ -38,8 +38,8 @@ html {
 
 body {
 
-    background-image:  url(../img/svg/background_left.svg),
-                       url(../img/svg/background_right.svg),  
+    background-image:  url(../img/svg/background-left.svg),
+                       url(../img/svg/background-right.svg),  
                        url(../img/svg/background.svg);
     background-color: black;
     background-repeat: no-repeat, no-repeat, repeat-x;
@@ -63,24 +63,24 @@ nav {
     height: 17px;
 }
 
-    .nav_elements {
+    .nav-elements {
             display: flex;
             justify-content: space-between;
             list-style: none;
         }
 
-        .nav_item{
+        .nav-item{
             height: 17px;
             transition: 0.19s;
         }
 
-        .nav_item:hover {
+        .nav-item:hover {
             font-size: 23px;
             text-shadow: 1px 1px 4px #B4B4B4;
         }
 
 
-        .nav_link{
+        .nav-link{
             color: #D8C7C7;
             text-decoration: none;
         }
@@ -93,34 +93,34 @@ main {
         height: 517px;
         margin: 0 auto;
     }
-        .start_planet {
+        .start-planet {
 
             position: relative;
             width: 944px;
             height: 410px;
         }
 
-            .start_planet_star_first {
+            .start-planet-star-first {
                 position: absolute;
                 left: 50%;
                 top: 50%;
                 margin-left: -3px;
                 margin-top: -3px;
                 z-index: 2;
-                animation: start_planet_animate_star_first 5s linear infinite;
+                animation: start-planet-animate-star-first 5s linear infinite;
             }
 
-            .start_planet_star_second {
+            .start-planet-star-second {
                 position: absolute;
                 left: 50%;
                 top: 50%;
                 margin-left: -3px;
                 margin-top: -3px;
                 z-index: 2;
-                animation: start_planet_animate_star_second 5s linear infinite;
+                animation: start-planet-animate-star-second 5s linear infinite;
             }
 
-                @keyframes start_planet_animate_star_first {
+                @keyframes start-planet-animate-star-first {
                     from {
                         transform: rotate(0deg) translateY(205px);
                     }
@@ -129,7 +129,7 @@ main {
                     }
                 }
 
-                @keyframes start_planet_animate_star_second {
+                @keyframes start-planet-animate-star-second {
                     from {
                         transform: rotate(0deg) translateY(-205px);
                     }
@@ -138,19 +138,19 @@ main {
                     }
                 }
 
-            .start_planet_img {
+            .start-planet-img {
                 position: absolute;
                 left: 50%;
                 margin-left: -205px;
                 z-index: 1;
             }
 
-            .start_planet_text_ma {
+            .start-planet-text-ma {
                 top: 103px;
                 position: absolute;
             }
 
-            .start_planet_text_rs {
+            .start-planet-text-rs {
                 right: 0;
                 top: 103px;
                 position: absolute;
@@ -162,7 +162,7 @@ main {
             height: 42px;
         }
 
-        .start_buy_ticket_button {
+        .start-buy-ticket-button {
             text-align: right;
 
         }
@@ -172,10 +172,10 @@ main {
         height: 531px;
         margin: 100px auto 0;
     }
-        .title_text {
+        .title-text {
             height: 32px;
         }
-        .about_interactive {
+        .about-interactive {
             width: 944px;
             height: 410px;
             margin-top: 89px;
@@ -188,13 +188,13 @@ main {
             text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.8);
             color: #D8C7C7;
         }
-            .about_interactive_planet {
+            .about-interactive-planet {
                 width: 410px;
                 height: 410px;
                 position: relative;
             }   
 
-                .dot_one {
+                .dot-one {
                     left: 13.9%;
                     right: 83.66%;
                     top: 48.78%;
@@ -202,16 +202,16 @@ main {
                     position: absolute;
                 }
 
-                .dot_one:hover{
+                .dot-one:hover{
                     background-color: purple;
                     opacity: 0;
                 }
 
-                .dot_one:hover ~ .about_interactive_choice_default  {
+                .dot-one:hover ~ .about-interactive-choice-default  {
                     opacity: 0;
                 }
 
-                .dot_two {
+                .dot-two {
                     left: 32.93%;
                     right: 64.63%;
                     top: 17.07%;
@@ -219,7 +219,7 @@ main {
                     position: absolute;
                 }
 
-                .dot_three {
+                .dot-three {
                     left: 70.73%;
                     right: 26.83%;
                     top: 52.93%;
@@ -227,7 +227,7 @@ main {
                     position: absolute;   
                 }
 
-                .dot_four {
+                .dot-four {
                     left: 64.39%;
                     right: 33.17%;
                     top: 23.41%;
@@ -235,7 +235,7 @@ main {
                     position: absolute;
                 }
 
-                .dot_five {
+                .dot-five {
                     left: 47.56%;
                     right: 50%;
                     top: 46.34%;
@@ -243,7 +243,7 @@ main {
                     position: absolute;
                 }
 
-                .dot_six {
+                .dot-six {
                     left: 35.37%;
                     right: 62.2%;
                     top: 75.61%;
@@ -251,11 +251,11 @@ main {
                     position: absolute;
                 }
 
-                .about_interactive_planet_img {
+                .about-interactive-planet-img {
                     position: absolute;
                 }
 
-            .about_interactive_choice_default {
+            .about-interactive-choice-default {
                 position: absolute;
                 left: 65.68%;
                 right: 14.62%;
@@ -265,7 +265,7 @@ main {
                 opacity: 1;
             }
 
-            .about_interactive_choice_1 {
+            .about-interactive-choice-1 {
                 position: absolute;
                 left: 62.61%;
                 right: 11.65%;
@@ -275,7 +275,7 @@ main {
                 display: none;
             }
 
-            .about_interactive_choice_2 {
+            .about-interactive-choice-2 {
                 position: absolute;
                 left: 61.97%;
                 right: 10.91%;
@@ -285,7 +285,7 @@ main {
                 display: none;
             }
 
-            .about_interactive_choice_3 {
+            .about-interactive-choice-3 {
                 position: absolute;
                 left: 64.09%;
                 right: 13.14%;
@@ -295,7 +295,7 @@ main {
                 display: none;
             }
 
-            .about_interactive_choice_4 {
+            .about-interactive-choice-4 {
                 position: absolute;
                 left: 64.94%;
                 right: 13.88%;
@@ -305,7 +305,7 @@ main {
                 display: none;
             }
 
-            .about_interactive_choice_5 {
+            .about-interactive-choice-5 {
                 position: absolute;
                 left: 66.21%;
                 right: 15.25%;
@@ -315,7 +315,7 @@ main {
                 display: none;
             }
 
-            .about_interactive_choice_6 {
+            .about-interactive-choice-6 {
                 position: absolute;
                 left: 63.35%;
                 right: 12.39%;
@@ -340,7 +340,7 @@ main {
         position: relative;
     }
 
-        .gallery_photos {
+        .gallery-photos {
             width: 944px;
             height: 543px;
             position: absolute;
@@ -349,61 +349,61 @@ main {
             justify-content: space-between;
         }
 
-            .gallery_photos_items {
+            .gallery-photos-items {
                 height: 543px;
                 position: relative;
                 display: flex;
                 align-items: center;
             }
 
-            .gallery_photos_item_1 {
+            .gallery-photos-item-1 {
                 transition: 0.2s;
             }
 
-            .gallery_photos_item_1:hover {
+            .gallery-photos-item-1:hover {
                 scale: 1.1;
             }
 
-            .gallery_photos_item_2 {
+            .gallery-photos-item-2 {
                 transition: 0.2s;
             }
 
-            .gallery_photos_item_2:hover {
+            .gallery-photos-item-2:hover {
                 scale: 1.1;
             }
 
-            .gallery_photos_item_3 {
+            .gallery-photos-item-3 {
                 transition: 0.2s;
             }
 
-            .gallery_photos_item_3:hover {
+            .gallery-photos-item-3:hover {
                 scale: 1.1;
             }
 
-        .gallery_numbers_wrapper {
+        .gallery-numbers-wrapper {
             position: absolute;
             top: 140px;
             left: 10.7%;
         }
-        .gallery_numbers {
+        .gallery-numbers {
             display: flex;
             justify-content: space-between;
             width: 754px;
         }
 
-    .buy_ticket {
+    .buy-ticket {
         width: 944px;
         height: 571px;
         margin: 0 auto;
     }
 
-        .buy_ticket_windows {
+        .buy-ticket-windows {
             display: flex;
             justify-content: space-between;
             margin-top: 89px;
         }
 
-            .buy_ticket_window_title {
+            .buy-ticket-window-title {
 
         
                 font-family: 'DXRigraf-SemiBold-LightExpanded';
@@ -416,24 +416,24 @@ main {
                 padding-top: 41px;
             }
 
-            .buy_ticket_window_button {
+            .buy-ticket-window-button {
                 text-align: center;
                 padding-top: 50px;
             }
 
-            .buy_ticket_window_standart {
+            .buy-ticket-window-standart {
 
-                background-image: url(../img/svg/background_ticket_standart.svg);
+                background-image: url(../img/svg/background-ticket-standart.svg);
                 width: 280px;
                 height: 450px;
 
                 transition: 0.4s;
             }
-            .buy_ticket_window_standart:hover {
+            .buy-ticket-window-standart:hover {
                 scale: 1.04;
             }
 
-                .buy_ticket_window_sum_standart {
+                .buy-ticket-window-sum-standart {
 
                     font-family: 'DXRigraf-SemiBold-MediumExtraExpanded';
                     color: #DB937D;
@@ -445,7 +445,7 @@ main {
                     padding-top: 20px;
                 }
 
-                .buy_ticket_window_list_standart {
+                .buy-ticket-window-list-standart {
                     font-family: 'DXRigraf-SemiBold-Thin';
                     text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.8);
                     font-style: normal;
@@ -455,27 +455,27 @@ main {
                     color: #D8C7C7;
                     padding-top: 32px;
                     padding-left: 40px;
-                    list-style-image: url(../img/svg/buy_ticket_arrow_standart.svg);
+                    list-style-image: url(../img/svg/buy-ticket-arrow-standart.svg);
                 }
 
-                li.buy_ticket_window_list_element_standart:nth-child(n+4) {
-                    list-style-image: url(../img/svg/buy_ticket_cross_standart.svg);
+                li.buy-ticket-window-list-element-standart:nth-child(n+4) {
+                    list-style-image: url(../img/svg/buy-ticket-cross-standart.svg);
                 }
 
-            .buy_ticket_window_vip {
+            .buy-ticket-window-vip {
 
-                background-image: url(../img/svg/background_ticket_vip.svg);
+                background-image: url(../img/svg/background-ticket-vip.svg);
                 width: 280px;
                 height: 450px;
                 transition: 0.4s;
             }
 
-            .buy_ticket_window_vip:hover {
+            .buy-ticket-window-vip:hover {
                 scale: 1.04;
             }
 
 
-                .buy_ticket_window_sum_vip {
+                .buy-ticket-window-sum-vip {
 
                     font-family: 'DXRigraf-SemiBold-MediumExtraExpanded';
                     color: #E25A41;
@@ -487,7 +487,7 @@ main {
                     padding-top: 20px;
                 }
 
-                .buy_ticket_window_list_vip {
+                .buy-ticket-window-list-vip {
                     font-family: 'DXRigraf-SemiBold-Thin';
                     text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.8);
                     font-style: normal;
@@ -497,26 +497,26 @@ main {
                     color: #D8C7C7;
                     padding-top: 32px;
                     padding-left: 40px;
-                    list-style-image: url(../img/svg/buy_ticket_arrow_vip.svg);
+                    list-style-image: url(../img/svg/buy-ticket-arrow-vip.svg);
                 }
 
-                li.buy_ticket_window_list_element_vip:nth-child(n+5) {
-                    list-style-image: url(../img/svg/buy_ticket_cross_vip.svg);
+                li.buy-ticket-window-list-element-vip:nth-child(n+5) {
+                    list-style-image: url(../img/svg/buy-ticket-cross-vip.svg);
                 }
 
-            .buy_ticket_window_exclusive {
+            .buy-ticket-window-exclusive {
 
-                background-image: url(../img/svg/background_ticket_exclusive.svg);
+                background-image: url(../img/svg/background-ticket-exclusive.svg);
                 width: 280px;
                 height: 450px;
                 transition: 0.4s;
             }
 
-            .buy_ticket_window_exclusive:hover {
+            .buy-ticket-window-exclusive:hover {
                 scale: 1.04;
             }
 
-            .buy_ticket_window_exclusive:hover .exclusive_title {
+            .buy-ticket-window-exclusive:hover .exclusive-title {
                 animation: test 3s linear infinite;
             }
 
@@ -525,7 +525,7 @@ main {
             }
 
 
-                .buy_ticket_window_sum_exclusive {
+                .buy-ticket-window-sum-exclusive {
 
                     font-family: 'DXRigraf-SemiBold-MediumExtraExpanded';
                     color: #911515;
@@ -537,7 +537,7 @@ main {
                     padding-top: 20px;
                 }
 
-                .buy_ticket_window_list_exclusive {
+                .buy-ticket-window-list-exclusive {
                     font-family: 'DXRigraf-SemiBold-Thin';
                     text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.8);
                     font-style: normal;
@@ -547,7 +547,7 @@ main {
                     color: #D8C7C7;
                     padding-top: 32px;
                     padding-left: 40px;
-                    list-style-image: url(../img/svg/buy_ticket_arrow_exclusive.svg);
+                    list-style-image: url(../img/svg/buy-ticket-arrow-exclusive.svg);
 
                 }
 
@@ -562,7 +562,7 @@ footer {
     text-align: center;
 }
 
-.start_planet_font {
+.start-planet-font {
     font-family: 'Usually-font';
     font-style: normal;
     font-weight: 700;
@@ -576,7 +576,7 @@ footer {
     text-shadow: 0px 4px 4px rgba(124, 0, 0, 0.25);
 }
 
-.dreams_font {
+.dreams-font {
     font-family: 'Novoposelensky';
     font-style: normal;
     font-weight: 400;
@@ -586,7 +586,7 @@ footer {
     text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
 }
 
-.title_font {
+.title-font {
     font-family: 'Novoposelensky';
     font-style: normal;
     font-weight: 400;
@@ -595,7 +595,7 @@ footer {
     color: #D8C7C7;
 }
 
-.buy_ticket_button {
+.buy-ticket-button {
     font-family: 'Novoposelensky';
     font-style: normal;
     font-weight: 400;
@@ -604,22 +604,22 @@ footer {
     color: #D8C7C7;
     display: inline-block;
 }
-    .buy_ticket_button_wrapper {
+    .buy-ticket-button-wrapper {
         display: inline-block;
         vertical-align: middle;
         transition: 0.5s;
     }
 
-    .buy_ticket_button_arrow {
+    .buy-ticket-button-arrow {
         transition: 0.5s;
         transform-origin: 50.5px;
     }
 
-    .buy_ticket_button:hover .buy_ticket_button_arrow {
+    .buy-ticket-button:hover .buy-ticket-button-arrow {
         transform: rotate(180deg);
     }
 
-    .buy_ticket_button:hover .buy_ticket_button_wrapper {
+    .buy-ticket-button:hover .buy-ticket-button-wrapper {
         transform: translateX(20px);
         text-shadow: 1px 1px 4px #B4B4B4;
     }
