@@ -109,11 +109,9 @@ main {
                 position: absolute;
                 left: 50%;
                 top: 50%;
-                margin-left: -5px;
-                margin-top: -5px;
+                margin-left: -22.5px;
+                margin-top: -22.5px;
                 z-index: 2;
-                width: 10px;
-                height: 10px;
                 animation: start-planet-animate-star-first 40s linear infinite;
             }
 
@@ -121,11 +119,9 @@ main {
                 position: absolute;
                 left: 50%;
                 top: 50%;
-                margin-left: -5px;
-                margin-top: -5px;
+                margin-left: -22.5px;
+                margin-top: -22.5px;
                 z-index: 2;
-                width: 10px;
-                height: 10px;
                 animation: start-planet-animate-star-second 30s linear infinite;
             }
 
@@ -202,6 +198,7 @@ main {
                 width: 410px;
                 height: 410px;
                 position: relative;
+                margin-left: 45px;
             }   
 
                 .dot-one {
@@ -260,8 +257,8 @@ main {
 
             .about-interactive-choice-default {
                 position: absolute;
-                left: 65.68%;
-                right: 14.62%;
+                left: 69.81%;
+                right: 10.49%;
                 top: 31.46%;
                 bottom: 31.46%;
                 text-align: center;
@@ -270,8 +267,8 @@ main {
 
             .about-interactive-choice-1 {
                 position: absolute;
-                left: 61.55%;
-                right: 10.59%;
+                left: 65.68%;
+                right: 6.46%;
                 top: 17.8%;
                 bottom: 17.8%;
                 text-align: center;
@@ -280,8 +277,8 @@ main {
 
             .about-interactive-choice-2 {
                 position: absolute;
-                left: 61.44%;
-                right: 10.28%;
+                left: 65.57%;
+                right: 6.14%;
                 top: 12.44%;
                 bottom: 12.44%;
                 text-align: center;
@@ -290,8 +287,8 @@ main {
 
             .about-interactive-choice-3 {
                 position: absolute;
-                left: 61.97%;
-                right: 11.02%;
+                left: 66.1%;
+                right: 6.89%;
                 top: 15.12%;
                 bottom: 15.12%;
                 text-align: center;
@@ -300,8 +297,8 @@ main {
 
             .about-interactive-choice-4 {
                 position: absolute;
-                left: 63.88%;
-                right: 12.82%;
+                left: 68.01%;
+                right: 8.69%;
                 top: 23.17%;
                 bottom: 23.17%;
                 text-align: center;
@@ -310,8 +307,8 @@ main {
 
             .about-interactive-choice-5 {
                 position: absolute;
-                left: 64.62%;
-                right: 13.67%;
+                left: 68.75%;
+                right: 9.53%;
                 top: 31.22%;
                 bottom: 31.22%;
                 text-align: center;
@@ -320,8 +317,8 @@ main {
 
             .about-interactive-choice-6 {
                 position: absolute;
-                left: 61.76%;
-                right: 10.81%;
+                left: 65.89%;
+                right: 6.67%;
                 top: 20.49%;
                 bottom: 20.49%;
                 text-align: center;
@@ -330,8 +327,8 @@ main {
 
             .about-interactive-choice-7 {
                 position: absolute;
-                left: 59.43%;
-                right: 9.32%;
+                left: 63.56%;
+                right: 5.19%;
                 top: 20.73%;
                 bottom: 20.98%;
                 text-align: center;
@@ -340,8 +337,8 @@ main {
 
             .about-interactive-choice-8 {
                 position: absolute;
-                left: 59.43%;
-                right: 9.32%;
+                left: 63.56%;
+                right: 5.19%;
                 top: 20.73%;
                 bottom: 20.98%;
                 text-align: center;
