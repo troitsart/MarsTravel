@@ -109,28 +109,32 @@ main {
                 position: absolute;
                 left: 50%;
                 top: 50%;
-                margin-left: -3px;
-                margin-top: -3px;
+                margin-left: -5px;
+                margin-top: -5px;
                 z-index: 2;
-                animation: start-planet-animate-star-first 5s linear infinite;
+                width: 10px;
+                height: 10px;
+                animation: start-planet-animate-star-first 40s linear infinite;
             }
 
             .start-planet-star-second {
                 position: absolute;
                 left: 50%;
                 top: 50%;
-                margin-left: -3px;
-                margin-top: -3px;
+                margin-left: -5px;
+                margin-top: -5px;
                 z-index: 2;
-                animation: start-planet-animate-star-second 5s linear infinite;
+                width: 10px;
+                height: 10px;
+                animation: start-planet-animate-star-second 30s linear infinite;
             }
 
                 @keyframes start-planet-animate-star-first {
                     from {
-                        transform: rotate(0deg) translateY(205px);
+                        transform: rotate(0deg) translateY(250px);
                     }
                     to {
-                        transform: rotate(360deg) translateY(205px);
+                        transform: rotate(360deg) translateY(250px);
                     }
                 }
 
@@ -146,7 +150,8 @@ main {
             .start-planet-img {
                 position: absolute;
                 left: 50%;
-                margin-left: -205px;
+                margin-left: -185px;
+                top: 20px;
                 z-index: 1;
             }
 
@@ -249,14 +254,16 @@ main {
 
                 .about-interactive-planet-img {
                     position: absolute;
+                    top: -45px;
+                    left: -45px;
                 }
 
             .about-interactive-choice-default {
                 position: absolute;
                 left: 65.68%;
                 right: 14.62%;
-                top: 33.9%;
-                bottom: 33.9%;
+                top: 31.46%;
+                bottom: 31.46%;
                 text-align: center;
                 opacity: 1;
             }
@@ -317,6 +324,26 @@ main {
                 right: 10.81%;
                 top: 20.49%;
                 bottom: 20.49%;
+                text-align: center;
+                opacity: 0;
+            }
+
+            .about-interactive-choice-7 {
+                position: absolute;
+                left: 59.43%;
+                right: 9.32%;
+                top: 20.73%;
+                bottom: 20.98%;
+                text-align: center;
+                opacity: 0;
+            }
+
+            .about-interactive-choice-8 {
+                position: absolute;
+                left: 59.43%;
+                right: 9.32%;
+                top: 20.73%;
+                bottom: 20.98%;
                 text-align: center;
                 opacity: 0;
             }
