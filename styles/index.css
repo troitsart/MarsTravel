@@ -206,7 +206,6 @@ main {
                     right: 83.66%;
                     top: 48.78%;
                     bottom: 48.78%;
-                    position: absolute;
                 }
 
                 .dot-two {
@@ -214,7 +213,6 @@ main {
                     right: 64.63%;
                     top: 17.07%;
                     bottom: 80.49%;
-                    position: absolute;
                 }
 
                 .dot-three {
@@ -222,7 +220,6 @@ main {
                     right: 26.83%;
                     top: 52.93%;
                     bottom: 44.63%;
-                    position: absolute;   
                 }
 
                 .dot-four {
@@ -230,7 +227,6 @@ main {
                     right: 33.17%;
                     top: 23.41%;
                     bottom: 74.15%;
-                    position: absolute;
                 }
 
                 .dot-five {
@@ -238,7 +234,6 @@ main {
                     right: 50%;
                     top: 46.34%;
                     bottom: 51.22%;
-                    position: absolute;
                 }
 
                 .dot-six {
@@ -246,7 +241,15 @@ main {
                     right: 62.2%;
                     top: 75.61%;
                     bottom: 21.95%;
+                }
+
+                .dot-one, .dot-two, .dot-three, .dot-four, .dot-five, .dot-six {
+                    transition: 0.35s;
                     position: absolute;
+                }
+
+                .dot-one:hover, .dot-two:hover, .dot-three:hover, .dot-four:hover, .dot-five:hover, .dot-six:hover {
+                    transform: scale(1.75);
                 }
 
                 .about-interactive-planet-img {
