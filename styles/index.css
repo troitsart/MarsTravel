@@ -1,0 +1,674 @@
+@font-face {
+    font-family: 'Novoposelensky';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    src: url("../fonts/Novoposelensky.otf")
+}
+
+@font-face {
+    font-family: 'Usually-font';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 148px;
+    src: url("../fonts/Usually-font-Bold.otf");
+}
+
+@font-face {
+    font-family: 'DXRigraf-SemiBold-Thin';
+    font-style: normal;
+    font-weight: 250;
+    line-height: 22px;
+    src: url("../fonts/DXRigraf-Thin.otf");
+}
+
+@font-face {
+    font-family: 'DXRigraf-SemiBold-MediumExtraExpanded';
+    src: url("../fonts/DXRigraf-MediumExtraExpanded.otf");
+}
+
+@font-face {
+    font-family: 'DXRigraf-SemiBold-LightExpanded';
+    src: url("../fonts/DXRigraf-LightExpanded.otf");
+}
+
+@font-face {
+    font-family: 'DXRigraf-Thin-expanded';
+    src: url("../fonts/DXRigraf-Thin-expanded.otf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    background-image:  url(../img/svg/background-left.svg),
+                       url(../img/svg/background-right.svg),  
+                       url(../img/svg/background.svg);
+    background-color: black;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-position: left top, right top, center top;
+
+}
+
+header {
+    padding-top: 60px;
+}
+
+nav {
+
+    font-size: 19px;
+    line-height: 17px;
+    font-family: 'Novoposelensky';
+    color: #D8C7C7;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 936px;
+    height: 17px;
+}
+
+    .nav-elements {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+        }
+
+        .nav-item{
+            height: 17px;
+            transition: 0.19s;
+        }
+
+        .nav-item:hover {
+            font-size: 23px;
+            text-shadow: 1px 1px 4px #B4B4B4;
+        }
+
+
+        .nav-link{
+            color: #D8C7C7;
+            text-decoration: none;
+        }
+
+main {
+    margin-top: 100px;
+}
+    .start {
+        width: 944px;
+        height: 517px;
+        margin: 0 auto;
+    }
+        .start-planet {
+
+            position: relative;
+            width: 944px;
+            height: 410px;
+        }
+
+            .start-planet-star-first {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                margin-left: -22.5px;
+                margin-top: -22.5px;
+                z-index: 2;
+                animation: start-planet-animate-star-first 40s linear infinite;
+            }
+
+            .start-planet-star-second {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                margin-left: -22.5px;
+                margin-top: -22.5px;
+                z-index: 2;
+                animation: start-planet-animate-star-second 30s linear infinite;
+            }
+
+                @keyframes start-planet-animate-star-first {
+                    from {
+                        transform: rotate(0deg) translateY(250px);
+                    }
+                    to {
+                        transform: rotate(360deg) translateY(250px);
+                    }
+                }
+
+                @keyframes start-planet-animate-star-second {
+                    from {
+                        transform: rotate(0deg) translateY(-205px);
+                    }
+                    to {
+                        transform: rotate(360deg) translateY(-205px);
+                    }
+                }
+
+            .start-planet-img {
+                position: absolute;
+                left: 50%;
+                margin-left: -185px;
+                top: 20px;
+                z-index: 1;
+            }
+
+            .start-planet-text-ma {
+                top: 103px;
+                position: absolute;
+            }
+
+            .start-planet-text-rs {
+                right: 0;
+                top: 103px;
+                position: absolute;
+            }
+
+        .dreams {
+            display: inline-block;
+            width: 238px;
+            height: 42px;
+        }
+
+        .start-buy-ticket-button {
+            text-align: right;
+
+        }
+
+    .about {
+        width: 944px;
+        height: 531px;
+        margin: 100px auto 0;
+    }
+        .title-text {
+            height: 32px;
+        }
+        .about-interactive {
+            width: 944px;
+            height: 410px;
+            margin-top: 89px;
+            position: relative;
+            font-family: 'DXRigraf-SemiBold-Thin';
+            font-style: normal;
+            font-weight: 250 ;
+            font-size: 20px;
+            line-height: 22px;
+            text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.8);
+            color: #D8C7C7;
+        }
+            .about-interactive-planet {
+                width: 410px;
+                height: 410px;
+                position: relative;
+                margin-left: 45px;
+            }   
+
+                .dot-one {
+                    left: 13.9%;
+                    right: 83.66%;
+                    top: 48.78%;
+                    bottom: 48.78%;
+                }
+
+                .dot-two {
+                    left: 32.93%;
+                    right: 64.63%;
+                    top: 17.07%;
+                    bottom: 80.49%;
+                }
+
+                .dot-three {
+                    left: 70.73%;
+                    right: 26.83%;
+                    top: 52.93%;
+                    bottom: 44.63%;
+                }
+
+                .dot-four {
+                    left: 64.39%;
+                    right: 33.17%;
+                    top: 23.41%;
+                    bottom: 74.15%;
+                }
+
+                .dot-five {
+                    left: 47.56%;
+                    right: 50%;
+                    top: 46.34%;
+                    bottom: 51.22%;
+                }
+
+                .dot-six {
+                    left: 35.37%;
+                    right: 62.2%;
+                    top: 75.61%;
+                    bottom: 21.95%;
+                }
+
+                .dot-one, .dot-two, .dot-three, .dot-four, .dot-five, .dot-six {
+                    transition: 0.35s;
+                    position: absolute;
+                }
+
+                .dot-one:hover, .dot-two:hover, .dot-three:hover, .dot-four:hover, .dot-five:hover, .dot-six:hover {
+                    transform: scale(1.75);
+                }
+
+                .about-interactive-planet-img {
+                    position: absolute;
+                    top: -45px;
+                    left: -45px;
+                }
+
+            .about-interactive-choice-default {
+                position: absolute;
+                left: 69.81%;
+                right: 10.49%;
+                top: 31.46%;
+                bottom: 31.46%;
+                text-align: center;
+                opacity: 1;
+            }
+
+            .about-interactive-choice-1 {
+                position: absolute;
+                left: 65.68%;
+                right: 6.46%;
+                top: 17.8%;
+                bottom: 17.8%;
+                text-align: center;
+                opacity: 0;
+            }
+
+            .about-interactive-choice-2 {
+                position: absolute;
+                left: 65.57%;
+                right: 6.14%;
+                top: 12.44%;
+                bottom: 12.44%;
+                text-align: center;
+                opacity: 0;
+            }
+
+            .about-interactive-choice-3 {
+                position: absolute;
+                left: 66.1%;
+                right: 6.89%;
+                top: 15.12%;
+                bottom: 15.12%;
+                text-align: center;
+                opacity: 0;
+            }
+
+            .about-interactive-choice-4 {
+                position: absolute;
+                left: 68.01%;
+                right: 8.69%;
+                top: 23.17%;
+                bottom: 23.17%;
+                text-align: center;
+                opacity: 0;
+            }
+
+            .about-interactive-choice-5 {
+                position: absolute;
+                left: 68.75%;
+                right: 9.53%;
+                top: 31.22%;
+                bottom: 31.22%;
+                text-align: center;
+                opacity: 0;
+            }
+
+            .about-interactive-choice-6 {
+                position: absolute;
+                left: 65.89%;
+                right: 6.67%;
+                top: 20.49%;
+                bottom: 20.49%;
+                text-align: center;
+                opacity: 0;
+            }
+
+            .about-interactive-choice-7 {
+                position: absolute;
+                left: 63.56%;
+                right: 5.19%;
+                top: 20.73%;
+                bottom: 20.98%;
+                text-align: center;
+                opacity: 0;
+            }
+
+            .about-interactive-choice-8 {
+                position: absolute;
+                left: 63.56%;
+                right: 5.19%;
+                top: 20.73%;
+                bottom: 20.98%;
+                text-align: center;
+                opacity: 0;
+            }
+
+            .about-interactive-choice-animate-appearance {
+                animation: choice-appearance 0.60s linear forwards;
+            }
+
+            @keyframes choice-appearance {
+              0% {
+                opacity: 0;
+              }
+              100% {
+                opacity: 1;
+              }
+            }
+
+            .about-interactive-choice-animate-disappearance {
+                animation: choice-disappearance 0.5s linear forwards;
+            }
+
+            @keyframes choice-disappearance {
+              100% {
+                opacity: 0;
+              }
+              0% {
+                opacity: 1;
+              }
+            }
+
+    .banner {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        height: 280px;
+        background-image: url("../img/svg/banner.svg");
+        background-repeat: repeat-x;
+    }
+
+    .gallery {
+        width: 944px;
+        height: 657px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+        .gallery-photos {
+            width: 944px;
+            height: 543px;
+            position: absolute;
+            bottom: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+            .gallery-photos-items {
+                height: 543px;
+                position: relative;
+                display: flex;
+                align-items: center;
+            }
+
+            .gallery-photos-item-1 {
+                transition: 0.2s;
+            }
+
+            .gallery-photos-item-1:hover {
+                scale: 1.1;
+            }
+
+            .gallery-photos-item-2 {
+                transition: 0.2s;
+            }
+
+            .gallery-photos-item-2:hover {
+                scale: 1.1;
+            }
+
+            .gallery-photos-item-3 {
+                transition: 0.2s;
+            }
+
+            .gallery-photos-item-3:hover {
+                scale: 1.1;
+            }
+
+        .gallery-numbers-wrapper {
+            position: absolute;
+            top: 140px;
+            left: 10.7%;
+        }
+        .gallery-numbers {
+            display: flex;
+            justify-content: space-between;
+            width: 754px;
+        }
+
+    .buy-ticket {
+        width: 944px;
+        height: 571px;
+        margin: 0 auto;
+    }
+
+        .buy-ticket-windows {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 89px;
+        }
+
+            .buy-ticket-window-title {
+
+        
+                font-family: 'DXRigraf-SemiBold-LightExpanded';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 22px;
+                line-height: 24px;
+                color: #D8C7C7;
+                text-align: center;
+                padding-top: 41px;
+            }
+
+            .buy-ticket-window-button {
+                text-align: center;
+                padding-top: 50px;
+            }
+
+            .buy-ticket-window-standart {
+
+                background-image: url(../img/svg/background-ticket-standart.svg);
+                width: 280px;
+                height: 450px;
+
+                transition: 0.4s;
+            }
+            .buy-ticket-window-standart:hover {
+                scale: 1.04;
+            }
+
+                .buy-ticket-window-sum-standart {
+
+                    font-family: 'DXRigraf-SemiBold-MediumExtraExpanded';
+                    color: #DB937D;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 26px;
+                    text-align: center;
+                    padding-top: 20px;
+                }
+
+                .buy-ticket-window-list-standart {
+                    font-family: 'DXRigraf-SemiBold-Thin';
+                    text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.8);
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 17px;
+                    line-height: 29px;
+                    color: #D8C7C7;
+                    padding-top: 32px;
+                    padding-left: 40px;
+                    list-style-image: url(../img/svg/buy-ticket-arrow-standart.svg);
+                }
+
+                li.buy-ticket-window-list-element-standart:nth-child(n+4) {
+                    list-style-image: url(../img/svg/buy-ticket-cross-standart.svg);
+                }
+
+            .buy-ticket-window-vip {
+
+                background-image: url(../img/svg/background-ticket-vip.svg);
+                width: 280px;
+                height: 450px;
+                transition: 0.4s;
+            }
+
+            .buy-ticket-window-vip:hover {
+                scale: 1.04;
+            }
+
+
+                .buy-ticket-window-sum-vip {
+
+                    font-family: 'DXRigraf-SemiBold-MediumExtraExpanded';
+                    color: #E25A41;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 26px;
+                    text-align: center;
+                    padding-top: 20px;
+                }
+
+                .buy-ticket-window-list-vip {
+                    font-family: 'DXRigraf-SemiBold-Thin';
+                    text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.8);
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 17px;
+                    line-height: 29px;
+                    color: #D8C7C7;
+                    padding-top: 32px;
+                    padding-left: 40px;
+                    list-style-image: url(../img/svg/buy-ticket-arrow-vip.svg);
+                }
+
+                li.buy-ticket-window-list-element-vip:nth-child(n+5) {
+                    list-style-image: url(../img/svg/buy-ticket-cross-vip.svg);
+                }
+
+            .buy-ticket-window-exclusive {
+
+                background-image: url(../img/svg/background-ticket-exclusive.svg);
+                width: 280px;
+                height: 450px;
+                transition: 0.4s;
+            }
+
+            .buy-ticket-window-exclusive:hover {
+                scale: 1.04;
+            }
+
+            .buy-ticket-window-exclusive:hover .exclusive-title {
+                animation: exclusive-animation 3s linear infinite;
+            }
+
+            @keyframes exclusive-animation {
+                50%{color: #911515}
+            }
+
+
+                .buy-ticket-window-sum-exclusive {
+
+                    font-family: 'DXRigraf-SemiBold-MediumExtraExpanded';
+                    color: #911515;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 26px;
+                    text-align: center;
+                    padding-top: 20px;
+                }
+
+                .buy-ticket-window-list-exclusive {
+                    font-family: 'DXRigraf-SemiBold-Thin';
+                    text-shadow: 0px 0px 50px rgba(255, 255, 255, 0.8);
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 17px;
+                    line-height: 29px;
+                    color: #D8C7C7;
+                    padding-top: 32px;
+                    padding-left: 40px;
+                    list-style-image: url(../img/svg/buy-ticket-arrow-exclusive.svg);
+
+                }
+
+footer {
+    font-family: 'DXRigraf-SemiBold-Thin';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 15px;
+    color: #D8C7C7;
+    padding-top: 180px;
+    text-align: center;
+}
+
+.start-planet-font {
+    font-family: 'Usually-font';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 170px;
+    line-height: 148px;
+    background: linear-gradient(180deg, #911515 0%, #1A0303 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 0px 4px 4px rgba(124, 0, 0, 0.25);
+}
+
+.dreams-font {
+    font-family: 'Novoposelensky';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 13px;
+    color: #D8C7C7;
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.25);
+}
+
+.title-font {
+    font-family: 'Novoposelensky';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 31px;
+    color: #D8C7C7;
+}
+
+.buy-ticket-button {
+    font-family: 'Novoposelensky';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #D8C7C7;
+    display: inline-block;
+}
+    .buy-ticket-button-wrapper {
+        display: inline-block;
+        vertical-align: middle;
+        transition: 0.5s;
+    }
+
+    .buy-ticket-button-arrow {
+        transition: 0.5s;
+        transform-origin: 50.5px;
+    }
+
+    .buy-ticket-button:hover .buy-ticket-button-arrow {
+        transform: rotate(180deg);
+    }
+
+    .buy-ticket-button:hover .buy-ticket-button-wrapper {
+        transform: translateX(20px);
+        text-shadow: 1px 1px 4px #B4B4B4;
+    }
