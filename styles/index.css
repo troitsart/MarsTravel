@@ -32,6 +32,11 @@
     src: url("../fonts/DXRigraf-LightExpanded.otf");
 }
 
+@font-face {
+    font-family: 'DXRigraf-Thin-expanded';
+    src: url("../fonts/DXRigraf-Thin-expanded.otf");
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -258,66 +263,66 @@ main {
 
             .about-interactive-choice-1 {
                 position: absolute;
-                left: 62.61%;
-                right: 11.65%;
-                top: 25.12%;
-                bottom: 25.12%;
+                left: 61.55%;
+                right: 10.59%;
+                top: 17.8%;
+                bottom: 17.8%;
                 text-align: center;
                 opacity: 0;
             }
 
             .about-interactive-choice-2 {
                 position: absolute;
-                left: 61.97%;
-                right: 10.91%;
-                top: 25.12%;
-                bottom: 25.12%;
+                left: 61.44%;
+                right: 10.28%;
+                top: 12.44%;
+                bottom: 12.44%;
                 text-align: center;
                 opacity: 0;
             }
 
             .about-interactive-choice-3 {
                 position: absolute;
-                left: 64.09%;
-                right: 13.14%;
-                top: 22.93%;
-                bottom: 23.17%;
+                left: 61.97%;
+                right: 11.02%;
+                top: 15.12%;
+                bottom: 15.12%;
                 text-align: center;
                 opacity: 0;
             }
 
             .about-interactive-choice-4 {
                 position: absolute;
-                left: 64.94%;
-                right: 13.88%;
-                top: 29.27%;
-                bottom: 29.27%;
+                left: 63.88%;
+                right: 12.82%;
+                top: 23.17%;
+                bottom: 23.17%;
                 text-align: center;
                 opacity: 0;
             }
 
             .about-interactive-choice-5 {
                 position: absolute;
-                left: 66.21%;
-                right: 15.25%;
-                top: 33.41%;
-                bottom: 33.41%;
+                left: 64.62%;
+                right: 13.67%;
+                top: 31.22%;
+                bottom: 31.22%;
                 text-align: center;
                 opacity: 0;
             }
 
             .about-interactive-choice-6 {
                 position: absolute;
-                left: 63.35%;
-                right: 12.39%;
-                top: 27.07%;
-                bottom: 27.32%;
+                left: 61.76%;
+                right: 10.81%;
+                top: 20.49%;
+                bottom: 20.49%;
                 text-align: center;
                 opacity: 0;
             }
 
             .about-interactive-choice-animate-appearance {
-                animation: choice-appearance 1s linear forwards;
+                animation: choice-appearance 0.60s linear forwards;
             }
 
             @keyframes choice-appearance {
